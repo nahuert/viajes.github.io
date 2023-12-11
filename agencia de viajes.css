@@ -1,0 +1,77 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 2000px;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 0.5em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s; /* Agregamos una transición de color para un cambio suave */
+}
+
+nav a:hover {
+  color: #f39c12; /* Cambiamos el color al pasar el puntero sobre el enlace */
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+}
+
+footer {
+  background-color: #34495e;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#lugar1{
+  width: 1300px;
+  height: 500px;
+}
+#lugar2{
+  width: 1300px;
+  height: 500px;
+}
+.Uruguay{
+  width: 1000px;
+  height: 300px;
+}
+#empanadas{
+  width: 800px;
+  height: 200px;
+}
+#rio{
+  width: 1000px;
+  height: 400px ;
+}
